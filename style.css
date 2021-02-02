@@ -1,0 +1,105 @@
+header{
+    
+    font: 1em sans-serif;
+    color: blue;
+    margin: auto;
+}
+
+h1{
+    color: lightseagreen;
+
+}
+
+#first{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: lightblue;
+    color: violet;
+    block-size: 200px;
+    margin: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+    
+}
+
+#form-container{
+    margin-top: 20px;
+}
+
+.button{
+    color: blue;
+    margin-top: 50px;;
+}
+
+#meme-gallery{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    background-color: linen;
+    margin:0 200 400 200;
+    
+}
+
+.meme {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 1.5em;
+    margin: 5px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0px 2px 0 #000, 2px 0px 0 #000, 0px -2px 0 #000,
+    -2px 0px 0 #000, 2px 2px 5px #000;
+}
+
+
+img {
+    margin: auto;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+
+
+
+.lower-position{
+    
+    
+    width: 100%;
+    position: absolute;
+    bottom: 8px;
+    left:50%;
+    transform: translate(-50%);
+    
+}
+
+.upper-position{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:50%;
+    transform: translate(-50%);
+
+}
+
+
+.delete{
+    position: absolute;
+    top:0;
+    left:0;
+    font-size: medium;
+    color: brown;
+    border: 5px;
+    border-color: cornsilk;
+    
+    padding:0;
+}
+
+.delete:hover{
+    cursor: pointer;
+    transform: translate3d();
+    color: yellow;
+}
