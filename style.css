@@ -116,13 +116,19 @@ img {
     color: brown;
     border: 5px;
     border-color: cornsilk;
-    
+    opacity: 0;
     padding:0;
+    transition: opacity 0.35s ease;
+    transition: center 1s ease;
+    transition: fontsize 2s ease;
 }
 
 .delete:hover{
+    opacity: 1;
     cursor: pointer;
     transform: translate3d();
     color: yellow;
+    width: 150px;
+    fontsize: 100px;
 }
 
