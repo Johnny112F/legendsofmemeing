@@ -116,15 +116,15 @@ img {
     color: red;
     border: 5px;
     border-color: cornsilk;
-    opacity: 0;
     padding:0;
-    transition: opacity 0.35s ease;
+    
     transition: center 1s ease;
     
 }
 
 .delete:hover{
     opacity: 1;
+    position: relative;
     cursor: pointer;
     transform: translate3d();
     color: yellow;
