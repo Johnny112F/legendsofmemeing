@@ -54,7 +54,7 @@ window.onload = function(){
 
 //deletes a meme when button is hovered over and clicked
 function removeMeme(e){
-  if(e.target.className.toLowerCase() === 'delete') event.target.parentNode.remove(e);
+  if(e.target.className.toLowerCase() === 'delete') event.target.parentNode.remove();
 }
 
 /*determine whether an image has fully loaded or if its height will negate it's appearance.
